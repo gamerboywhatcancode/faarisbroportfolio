@@ -1,7 +1,8 @@
 {
-  "homepage": "https://gamerboywhatcancode.github.io/faarisbroportfolio/",
+  
   "name": "godhelpme",
   "private": true,
+  "homepage": "https://gamerboywhatcancode.github.io/faarisbroportfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
