@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-  <HashRouter basename='/home'>
+ 
       <Routes>
         <Route path='/home'element={<Home/>}/>
         <Route path='/skills' element={<Skills/>}/>
@@ -22,7 +22,7 @@ function App() {
         <Route path='/projects' element={<Projects/>}/>
       </Routes>
     
-  </HashRouter>
+  
       
       
       
