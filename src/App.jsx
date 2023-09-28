@@ -14,13 +14,7 @@ function App() {
 
   return (
     <>
-      <Routes>
-        <Route path='/home'element={<Home/>}/>
-        <Route path='/skills' element={<Skills/>}/>
-        <Route path='/interests' element={<Interest/>}/>
-        <Route path='/story' element={<Story/>}/>
-        <Route path='/projects' element={<Projects/>}/>
-      </Routes>
+
       
       
       
