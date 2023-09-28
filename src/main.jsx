@@ -7,7 +7,7 @@ import Home from './pages/home.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter basename='/home'>
-    <Link to='/'/>
+    <Link to='/home'/>
     <App />
   </BrowserRouter>
     
