@@ -6,7 +6,8 @@ import { BrowserRouter, HashRouter, Link } from 'react-router-dom'
 import Home from './components/home.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/'>
+    <Link to='/'/>
     <App />
   </BrowserRouter>
     
