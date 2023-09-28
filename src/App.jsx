@@ -13,15 +13,15 @@ function App() {
 
   return (
     <>
-        <HashRouter basename='/home'>
-          <Routes>
+  <HashRouter basename='/home'>
+      <Routes>
         <Route path='/home'element={<Home/>}/>
         <Route path='/skills' element={<Skills/>}/>
         <Route path='/interests' element={<Interest/>}/>
         <Route path='/story' element={<Story/>}/>
         <Route path='/projects' element={<Projects/>}/>
       </Routes>
-    <App />
+    
   </HashRouter>
       
       
