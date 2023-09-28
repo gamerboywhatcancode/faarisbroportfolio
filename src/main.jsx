@@ -17,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/faarisbroportfolio/skills",
-        element: <Skills/>
+        element: <Skills/>,
       }
     ]
   }
