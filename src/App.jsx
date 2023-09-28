@@ -3,11 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes,Route, HashRouter } from 'react-router-dom'
-import Home from '/assets/pages/home'
-import Skills from '/assets/pages/skills.js'
-import Interest from '/assets/pages/interest'
-import Story from '/assets/pages/story'
-import Projects from '/assets/pages/projects'
+import Home from 'assets/pages/home'
+import Skills from 'assets/pages/skills.js'
+import Interest from 'assets/pages/interest'
+import Story from 'assets/pages/story'
+import Projects from 'assets/pages/projects'
 function App() {
 
 
