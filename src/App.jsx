@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Routes,Route } from 'react-router-dom'
+import { Routes,Route, HashRouter } from 'react-router-dom'
 import Home from './pages/home'
 import Skills from './pages/skills.jsx'
 import Interest from './pages/interest'
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-        <BrowserRouter basename='/home'>
+        <HashRouter basename='/home'>
           <Routes>
         <Route path='/home'element={<Home/>}/>
         <Route path='/skills' element={<Skills/>}/>
@@ -23,7 +23,7 @@ function App() {
         <Route path='/projects' element={<Projects/>}/>
       </Routes>
     <App />
-  </BrowserRouter>
+  </HashRouter>
       
       
       
