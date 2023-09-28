@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 
-const Skills = () => {
+const Skill = () => {
 
 
     const onaClick = (para) => {
@@ -32,4 +32,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Skill

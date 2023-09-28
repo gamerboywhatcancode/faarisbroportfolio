@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 
-const Projects = () => {
+const Project = () => {
 
 
     const onaClick = (para) => {
@@ -48,4 +48,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Project

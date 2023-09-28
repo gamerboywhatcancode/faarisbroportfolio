@@ -4,10 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes,Route, HashRouter } from 'react-router-dom'
 import Home from './pages/home'
-import Skills from './pages/skills.js'
-import Interest from './pages/interest'
+import Skill from './pages/skills'
+import Project from './pages/projects'
 import Story from './pages/story'
-import Projects from './pages/projects'
 function App() {
 
 
