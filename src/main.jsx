@@ -7,28 +7,11 @@ import Home from './pages/home.jsx'
 import Skill from './pages/skills.jsx'
 
 
-const router = createBrowserRouter([
-  {
-    path: "/faarisbroportfolio/",
-    element: <App/>,
-    children: [
-      {
-        path: "/faarisbroportfolio/",
-        element: <Home/>,
-      },
-      {
-        path: "/faarisbroportfolio/skills",
-        element: <Skill/>
 
-      }
-      
-    ]
-  }
-])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <RouterProvider router={router}/>
+      <App/>
   </React.StrictMode>
     
   
