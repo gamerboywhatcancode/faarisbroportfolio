@@ -6,9 +6,9 @@ import { BrowserRouter, HashRouter, Link } from 'react-router-dom'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='/'>
+  <React.StrictMode>
       <App/>
-  </BrowserRouter>
+  </React.StrictMode>
     
   
 )
