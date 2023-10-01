@@ -16,11 +16,11 @@ function App() {
     <>
     <Router>
     <Routes>
-        <Route exact path='/'element={<Home/>}/>
-        <Route path='/skills' element={<Skill/>}/>
-        <Route path='/interests' element={<Interest/>}/>
-        <Route path='/story' element={<Story/>}/>
-        <Route path='/projects' element={<Projects/>}/>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/skills' element={<Skill/>}/>
+        <Route exact path='/interests' element={<Interest/>}/>
+        <Route exact path='/story' element={<Story/>}/>
+        <Route exact path='/projects' element={<Project/>}/>
       </Routes>
     </Router>
 
