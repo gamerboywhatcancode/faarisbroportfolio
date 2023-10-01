@@ -7,7 +7,7 @@ import Home from './pages/home'
 import Skill from './pages/skills'
 import Project from './pages/projects'
 import Story from './pages/story'
-import Interests from './pages/interest'
+import Interest from './pages/interest'
 function App() {
 
 
