@@ -17,10 +17,10 @@ function App() {
     <Router>
     <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/skills' element={<Skill/>}/>
-        <Route exact path='/interests' element={<Interest/>}/>
-        <Route exact path='/story' element={<Story/>}/>
-        <Route exact path='/projects' element={<Project/>}/>
+        <Route exact path='/faarisbroportfolio/skills' element={<Skill/>}/>
+        <Route exact path='/faarisbroportfolio/interests' element={<Interest/>}/>
+        <Route exact path='/faarisbroportfolio/story' element={<Story/>}/>
+        <Route exact path='/faarisbroportfolio/projects' element={<Project/>}/>
       </Routes>
     </Router>
 
