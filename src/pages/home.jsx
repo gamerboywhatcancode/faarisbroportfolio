@@ -5,7 +5,7 @@ const Home = () => {
 
   console.log("hi")
   const onaClick = (para) => {
-    window.location = "/faarisbroportfolio/skills"
+    window.location = "faarisbroportfolio/skills"
 }
 
   const on2Click = () => {
