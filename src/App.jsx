@@ -7,6 +7,7 @@ import Home from './pages/home'
 import Skill from './pages/skills'
 import Project from './pages/projects'
 import Story from './pages/story'
+import Interests from './pages/interest'
 function App() {
 
 
@@ -15,8 +16,8 @@ function App() {
     <>
  
       <Routes>
-        <Route path='/home'element={<Home/>}/>
-        <Route path='/skills' element={<Skills/>}/>
+        <Route path='/'element={<Home/>}/>
+        <Route path='/skills' element={<Skill/>}/>
         <Route path='/interests' element={<Interest/>}/>
         <Route path='/story' element={<Story/>}/>
         <Route path='/projects' element={<Projects/>}/>
